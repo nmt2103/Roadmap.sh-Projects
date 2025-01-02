@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic HTML Website</title>
+    <!-- Meta SEO Tags -->
     <meta name="description" content="Basic HTML website, home page" />
     <meta name="keywords" content="HTML, Frontend, Beginner Project" />
     <meta name="author" content="Ngo Minh Thuan" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Styles CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
       <h1>Ngo Minh Thuan</h1>
-      <ul>
+      <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="articles.html">Articles</a></li>
@@ -25,10 +35,10 @@
       <p>Basic HTML website</p>
     </header>
 
-    <main>
+    <main class="home-main">
       <section>
         <h3>Projects</h3>
-        <ul>
+        <ul class="project-list">
           <li>HTML Only Portfolio</li>
           <li>Calculator</li>
           <li>Quiz App</li>
@@ -64,28 +74,31 @@
 
     <article>
       <h3>Reviews from my Teachers</h3>
-      <section>
-        <p>
-          John Doe was a brilliant student; always stood out his assignments
-        </p>
-        <h5>Jane Doe</h5>
-        <h5>Assistant Professor</h5>
-      </section>
 
       <section>
-        <p>
-          John Doe was a brilliant student; always stood out his assignments
-        </p>
-        <h5>Jane Doe</h5>
-        <h5>Assistant Professor</h5>
-      </section>
+        <div>
+          <p>
+            John Doe was a brilliant student; always stood out his assignments
+          </p>
+          <h5>Jane Doe</h5>
+          <h5>Assistant Professor</h5>
+        </div>
 
-      <section>
-        <p>
-          John Doe was a brilliant student; always stood out his assignments
-        </p>
-        <h5>Jane Doe</h5>
-        <h5>Assistant Professor</h5>
+        <div>
+          <p>
+            John Doe was a brilliant student; always stood out his assignments
+          </p>
+          <h5>Jane Doe</h5>
+          <h5>Assistant Professor</h5>
+        </div>
+
+        <div>
+          <p>
+            John Doe was a brilliant student; always stood out his assignments
+          </p>
+          <h5>Jane Doe</h5>
+          <h5>Assistant Professor</h5>
+        </div>
       </section>
     </article>
 
