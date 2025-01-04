@@ -9,3 +9,5 @@ This repository contains projects built following the [roadmap.sh](https://roadm
 ## Project 3: [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
 ## Project 4: [Changelog Component](https://roadmap.sh/projects/changelog-component)
+
+## Project 5: [Image Grid Layout](https://roadmap.sh/projects/image-grid)
