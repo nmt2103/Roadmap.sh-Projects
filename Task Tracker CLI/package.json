@@ -1,0 +1,23 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "Task Tracker CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmt2103/Roadmap.sh-Projects.git"
+  },
+  "keywords": [
+    "cli",
+    "task"
+  ],
+  "author": "Ngo Minh Thuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmt2103/Roadmap.sh-Projects/issues"
+  },
+  "homepage": "https://github.com/nmt2103/Roadmap.sh-Projects#readme"
+}
