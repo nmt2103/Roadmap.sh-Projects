@@ -17,3 +17,5 @@ This repository contains projects built following the [roadmap.sh](https://roadm
 > ## **BACKEND PROJECTS**
 
 ### Project 1: [Task Tracker CLI](https://roadmap.sh/projects/task-tracker)
+
+### Project 2: [GitHub User Activity CLI](https://roadmap.sh/projects/github-user-activity)
