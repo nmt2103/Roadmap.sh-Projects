@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <meta name="description" content="An Age Calculator Webpage" />
+    <meta name="keyword" content="age calculator, frontend" />
+    <meta name="author" content="Ngo Minh Thuan" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Age Calculator</h1>
+      <form>
+        <label for="birth-date">Enter your birth date:</label>
+        <input type="text" id="birth-date" name="birth-date" readonly />
+        <input type="submit" id="calculator-btn" value="Calculate" />
+      </form>
+      <p id="result"></p>
+    </main>
+
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js"></script>
+    <script type="module" src="index.mjs"></script>
+  </body>
+</html>

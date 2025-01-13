@@ -1,0 +1,28 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "An Age Calculator project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmt2103/Roadmap.sh-Projects.git"
+  },
+  "keywords": [
+    "Frontend",
+    "age",
+    "calculator"
+  ],
+  "author": "Ngo Minh Thuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmt2103/Roadmap.sh-Projects/issues"
+  },
+  "homepage": "https://github.com/nmt2103/Roadmap.sh-Projects#readme",
+  "dependencies": {
+    "js-datepicker": "^5.18.3",
+    "luxon": "^3.5.0"
+  }
+}

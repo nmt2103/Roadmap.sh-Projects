@@ -14,6 +14,8 @@ This repository contains projects built following the [roadmap.sh](https://roadm
 
 ### Project 5: [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 
+### Project 6: [Age Calculator](https://roadmap.sh/projects/age-calculator)
+
 > ## **BACKEND PROJECTS**
 
 ### Project 1: [Task Tracker CLI](https://roadmap.sh/projects/task-tracker)
