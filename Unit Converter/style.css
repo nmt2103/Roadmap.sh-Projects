@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+body {
+  margin: 4rem 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form:nth-child(2) {
+  padding: 0 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+input[type='text'],
+select {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+input[type='submit'] {
+  align-self: center;
+  width: 40%;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border-width: 1px;
+  cursor: pointer;
+}

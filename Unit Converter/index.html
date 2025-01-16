@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <meta name="description" content="Unit Converter Web App" />
+    <meta name="keyword" content="Backend Project, Webapp" />
+    <meta name="author" content="Ngo Minh Thuan" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="length-form">
+        <h1>Length Converter</h1>
+        <label for="length">Enter the length to convert</label>
+        <input type="text" id="length" name="length" placeholder="1" />
+        <label for="length-from">Unit to convert from</label>
+        <select id="length-from" name="length-from">
+          <option value="km">Kilometer</option>
+          <option value="m">Meter</option>
+          <option value="cm">Centimeter</option>
+          <option value="mm">Millimeter</option>
+          <option value="mi">Mile</option>
+          <option value="yd">Yard</option>
+          <option value="ft">Foot</option>
+          <option value="in">Inch</option>
+        </select>
+        <label for="length-to">Unit to convert to</label>
+        <select id="length-to" name="length-to">
+          <option value="km">Kilometer</option>
+          <option value="m">Meter</option>
+          <option value="cm">Centimeter</option>
+          <option value="mm">Millimeter</option>
+          <option value="mi">Mile</option>
+          <option value="yd">Yard</option>
+          <option value="ft">Foot</option>
+          <option value="in">Inch</option>
+        </select>
+        <input type="submit" value="Convert" />
+        <p id="length-result"></p>
+      </form>
+
+      <form id="weight-form">
+        <h1>Weight Converter</h1>
+        <label for="weight">Enter the weight to convert</label>
+        <input type="text" id="weight" name="weight" placeholder="1" />
+        <label for="weight-from">Unit to convert from</label>
+        <select id="weight-from" name="weight-from">
+          <option value="kg">Kilogram</option>
+          <option value="g">Gram</option>
+          <option value="mg">Miligram</option>
+          <option value="oz">Ounce</option>
+          <option value="lb">Pound</option>
+        </select>
+        <label for="weight-to">Unit to convert to</label>
+        <select id="weight-to" name="weight-to">
+          <option value="kg">Kilogram</option>
+          <option value="g">Gram</option>
+          <option value="mg">Miligram</option>
+          <option value="oz">Ounce</option>
+          <option value="lb">Pound</option>
+        </select>
+        <input type="submit" value="Convert" />
+        <p id="weight-result"></p>
+      </form>
+
+      <form id="temperature-form">
+        <h1>Temperature Converter</h1>
+        <label for="temperature">Enter the temperature to convert</label>
+        <input
+          type="text"
+          id="temperature"
+          name="temperature"
+          placeholder="1"
+        />
+        <label for="temperature-from">Unit to convert from</label>
+        <select id="temperature-from" name="temperature-from">
+          <option value="c">Celsius</option>
+          <option value="f">Fahrenheit</option>
+          <option value="k">Kelvin</option>
+        </select>
+        <label for="temperature-to">Unit to convert to</label>
+        <select id="temperature-to" name="temperature-to">
+          <option value="c">Celsius</option>
+          <option value="f">Fahrenheit</option>
+          <option value="k">Kelvin</option>
+        </select>
+        <input type="submit" value="Convert" />
+        <p id="temperature-result"></p>
+      </form>
+    </main>
+
+    <script type="module" src="index.mjs"></script>
+  </body>
+</html>

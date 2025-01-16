@@ -21,3 +21,5 @@ This repository contains projects built following the [roadmap.sh](https://roadm
 ### Project 1: [Task Tracker CLI](https://roadmap.sh/projects/task-tracker)
 
 ### Project 2: [GitHub User Activity CLI](https://roadmap.sh/projects/github-user-activity)
+
+### Project 3: [Unit Converter](https://roadmap.sh/projects/unit-converter)
